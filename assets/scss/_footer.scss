@@ -1,0 +1,30 @@
+footer{
+	padding-top: 15rem ;
+	position: relative;
+	color: white;
+
+	.bg-footer{
+		position: absolute;
+        z-index: -1;
+        top: 0;
+        left : 0;
+        background-repeat: no-repeat;
+        left: 50%; transform: translate(-50%,0);
+	}
+
+	h3{
+		font-style: normal;
+		font-weight: 500;
+		font-size: 24px;
+		line-height: 28px;
+	}
+	p{
+		font-weight: normal;
+		font-size: 18px;
+		line-height: 27px;
+	}
+	span{
+		font-family: Brush Script MT;
+        font-size: 25px;
+	}
+}

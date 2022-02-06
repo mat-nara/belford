@@ -1,0 +1,81 @@
+.been-section{
+	padding-top: 8rem;
+
+	.container{
+		width: 90%;
+
+		.been-title{
+			text-align: center;
+			@media (min-width: 576px) {
+				margin-left: -4rem;
+			}
+
+			p{
+				font-size:   $gray-title-font-size;
+				color:       $gray-title-color;
+				font-weight: $gray-title-font-weight;
+			}
+
+			h2{
+				font-size: 44px;
+				font-weight: $black-title-font-weight;
+				position:relative;
+				height: 5rem;
+
+				&::after{
+					content:'';
+					position:absolute;
+					background-image: url('../images/icons/Wave.svg');
+					width: 100%;
+					height: 100%;
+					left: 0;
+					background-repeat: no-repeat;
+					background-position: bottom center;
+				}
+			}
+		} 
+
+		.been-list{
+
+			@media (min-width: 994px) {
+				padding: 4rem ;
+			}
+
+			.been-item{
+				margin: 2rem 0;
+
+				img{
+					max-width: 100%
+				}
+
+				h3 {
+					color : #333333;
+					font-size: 24px;
+					font-weight: 500;
+					span{
+						color: #D04407;
+					}
+				}
+
+				p{
+					font-weight: normal;
+					font-size: 18px;
+					line-height: 27px;
+					color: #555555;
+				}
+
+				.location{
+					color: #555555;
+					font-style: italic;
+					font-weight: normal;
+					font-size: 15px;
+					line-height: 27px;
+
+					i{
+						vertical-align: text-bottom;
+					}
+				}
+			}
+		}
+	}
+}

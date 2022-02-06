@@ -1,0 +1,124 @@
+.top-section{
+    
+    color: white;
+    padding-bottom: 20rem;
+
+    .bg-banner{
+    	position: absolute;
+        z-index: -1;
+        top: 0;
+        left : 0;
+        background-repeat: no-repeat;
+        left: 50%; transform: translate(-50%,0);
+    }
+
+    .bg-masked{
+        position: absolute;
+        z-index: 0;
+        top: 0;
+        left : 0;
+        background-repeat: no-repeat;
+        left: 50%; transform: translate(-50%,0); 
+    }
+
+    .container {
+        max-width: 1400px;
+    }
+
+    > .container{ 
+        h1{
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 60px;
+            line-height: 80px;
+        }
+        
+        a{
+            font-size: 14px;
+            line-height: 16px;
+
+            .icon-long-arrow-right{
+                border-color: white;
+                display: inline-block;
+                margin-left: 40px;
+                width: 10px;
+                height: 10px;
+                &::after{
+                    background-color: white;
+                }
+            }
+        }
+
+        .top-slider{
+            margin-right: -10px;
+            .slick-list{
+                padding-left: 0 !important;
+            }
+        }
+
+        .top-slider {
+            .card{ 
+                margin-right: 25px;
+                overflow: hidden;
+                border-radius: 10px !important;
+                border :none;
+                cursor: pointer;
+
+                .card-img-overlay{
+                    top:auto;
+                    line-height: 0.5;
+                    .card-title{ 
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+
+        .top-banner-text{
+            margin-left: 0.5rem !important;
+            margin-top: 6rem ;
+            a:hover{
+                cursor: pointer;
+            }
+            p{
+                font-family: Brush Script MT;
+                font-size: 25px;
+            }
+        }
+
+        .top-social-link{
+            padding-top: 1.5rem;
+            margin-left: 0;
+
+            .col-5{
+                margin-bottom: 2rem;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                a{
+                    color: white;
+                    &:hover{
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+
+        .social-link-web{
+            margin-bottom : -2rem;
+            @media (max-width: 992px){
+                display:none;
+            }
+        }
+
+        .social-link-mobile{
+            margin-left: 1rem;
+            padding-top: 1rem;
+            line-height: 1;
+             @media (min-width: 992px){
+                display:none;
+            }
+        }
+     }
+}

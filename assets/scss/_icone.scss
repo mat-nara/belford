@@ -1,0 +1,201 @@
+
+.icon{
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    position: relative;
+    margin-right: 1rem;
+    &::before{
+        content: "";
+        width: 100%;
+        height: 100%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+}
+
+.icon-arrow-right, .icon-arrow-right-gray{
+    vertical-align: text-bottom;
+    margin-left: 10px;
+}
+
+.icon-up-right-arrow{
+    margin-right: -3px;
+    margin-bottom: -5px;
+}
+
+.icon-next-arrow, .icon-prev-arrow{
+    width : 34px;
+    height: 34px;
+}
+.icon-next-arrow{
+    transform: rotate(180deg);
+}
+
+
+.icon-youtube::before{
+    background-image: url('../images/icons/youtube.svg');
+}
+
+.icon-linkedin::before{
+    background-image: url('../images/icons/linkedin.svg');
+}
+
+.icon-twitter::before{
+    background-image: url('../images/icons/twitter.svg');
+}
+
+.icon-whatsapp::before{
+    background-image: url('../images/icons/whatsapp.svg');
+}
+
+.icon-instagram::before{
+    background-image: url('../images/icons/instagram.svg');
+}
+
+
+
+
+
+.icon-arrow-right::before{
+    background-image: url('../images/icons/right-arrow.svg');
+}
+
+.icon-up-right-arrow::before{
+    background-image: url('../images/icons/up-right-arrow-2.svg');
+}
+
+.icon-next-arrow::before{
+    background-image: url('../images/icons/next.svg');
+}
+
+.icon-prev-arrow::before{
+    background-image: url('../images/icons/next.svg');
+}
+
+
+
+
+
+.big-icon{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    margin-right: 1.75rem;
+    &::before{
+        content: "";
+        width: 100%;
+        height: 100%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+}
+
+.icon-audition::before{
+    background-image: url('../images/icons/Audition.svg');
+}
+
+.icon-premiere::before{
+    background-image: url('../images/icons/Premiere.svg');
+}
+
+.icon-illustrator::before{
+    background-image: url('../images/icons/Illustrator.svg');
+}
+
+.icon-after-effect::before{
+    background-image: url('../images/icons/After Effects.svg');
+}
+
+.icon-illustrator-2::before{
+    background-image: url('../images/icons/Illustrator_2.svg');
+}
+
+.icon-laravel::before{
+    background-image: url('../images/icons/Laravel.svg');
+}
+
+.icon-angular::before{
+    background-image: url('../images/icons/Angular.svg');
+}
+
+.icon-figma::before{
+    background-image: url('../images/icons/Figma.svg');
+}
+
+.icon-sass::before{
+    background-image: url('../images/icons/Sass.svg');
+}
+
+.icon-sketch::before{
+    background-image: url('../images/icons/Sketch.svg');
+}
+
+
+
+
+.rating-icon{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    margin-right: 0.1rem;
+    background-repeat: no-repeat;
+    &::before{
+        content: "";
+        width: 100%;
+        height: 100%;
+        background-size: contain;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+}
+
+.checked-circle-rating-icon::before{
+    background-image: url('../images/icons/red-rating-circle.svg');
+}
+
+.circle-rating-icon::before{
+    background-image: url('../images/icons/gray-rating-circle.svg');
+}
+
+
+
+.little-icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    margin-right: 0.1rem;
+    background-repeat: no-repeat;
+    &::before{
+        content: "";
+        width: 100%;
+        height: 100%;
+        background-size: contain;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+}
+
+.icon-map-pin::before{
+    background-image: url('../images/icons/map-pin-2-line.svg');
+}
+
+
+.icon-arrow-right-gray::before{
+    background-image: url('../images/icons/right-arrow-gray.svg');
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url("../images/icons/menu.svg");
+}
